@@ -1,9 +1,6 @@
 <template>
     <section>
-        FILTER
-    </section>
-    <section>
-        LIST OF COACHES
+        Contact Coach
     </section>
 </template>
 <script></script>

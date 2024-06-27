@@ -1,9 +1,7 @@
 <template>
     <section>
-        FILTER
-    </section>
-    <section>
-        LIST OF COACHES
+        DETAILS FOR COACH
+        <router-link to="/coaches/c1/contact">Contact</router-link>
     </section>
 </template>
 <script></script>

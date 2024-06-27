@@ -3,7 +3,11 @@
         FILTER
     </section>
     <section>
-        LIST OF COACHES
+        <div class="controls">
+            <button>Refresh</button>
+            <router-link to="/register">Register as Coach</router-link>
+        </div>
+        <ul>LIST of Coaches</ul>
     </section>
 </template>
 
