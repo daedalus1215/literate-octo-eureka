@@ -6,7 +6,7 @@ import CoachesList from './pages/coaches/CoachesList.vue';
 import CoachRegistration from './pages/coaches/CoachRegistration.vue';
 
 import ContactCoach from './pages/requests/ContactCoach.vue';
-import RequestReceived from './pages/requests/RequestReceived.vue';
+import RequestsReceived from './pages/requests/RequestsReceived.vue';
 import NotFound from './pages/NotFound.vue';
 
 // Tell it the type of routes we want to support.
@@ -24,7 +24,7 @@ export const router = createRouter({
             ]
         },
         { path: '/register', component: CoachRegistration },
-        { path: '/requests', component: RequestReceived },
+        { path: '/requests', component: RequestsReceived },
         { path: '/:notFound(.*)', component: NotFound }
     ],
     linkActiveClass: 'active',
