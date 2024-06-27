@@ -1,31 +1,13 @@
 <template>
-  <div>Hi</div>
+  <TheHeader />
+  <router-view></router-view>
 </template>
 
 <script>
-
+import TheHeader from './components/layout/TheHeader.vue'
 export default {
   components: {
-  },
-  data() {
-    return {};
-  },
-  provide() {},
-  methods: {
-  },
-};
+    TheHeader
+  }
+}
 </script>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
-}
-
-body {
-  margin: 0;
-}
-</style>
