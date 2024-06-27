@@ -1,9 +1,7 @@
 <template>
     <section>
-        FILTER
+        Requests
     </section>
-    <section>
-        LIST OF COACHES
-    </section>
+
 </template>
 <script></script>
