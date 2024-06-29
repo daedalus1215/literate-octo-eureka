@@ -1,6 +1,6 @@
 <template>
     <li>
-        <h3>{{firstName}}{{ fullName }}</h3>
+        <h3>{{ fullName }}</h3>
         <h4>${{ rate }}/hour</h4>
         <div>
             <base-badge 
