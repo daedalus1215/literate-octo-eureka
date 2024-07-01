@@ -1,4 +1,3 @@
-import { onMounted } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 import CoachDetail from './pages/coaches/CoachDetail.vue';
