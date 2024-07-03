@@ -45,10 +45,13 @@ export default {
             lastName: '',
             description: '',
             rate: null,
-            areas: []
+            areas: [],
         }
     },
     methods: {
+        validateForm() {
+
+        },
         submitForm() {
             const formData = {
                 first: this.firstName,
